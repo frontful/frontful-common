@@ -1,0 +1,23 @@
+{
+  "name": "frontful-common",
+  "version": "0.0.5",
+  "private": true,
+  "description": "Common configuration and utilities for Frontful infrastructure",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/frontful/frontful-common.git"
+  },
+  "scripts": {
+    "build": "babel-preset-frontful build",
+    "deploy": "babel-preset-frontful deploy"
+  },
+  "dependencies": {
+    "frontful-config": "0.x || 1.x",
+    "object-path": "^0.11.4"
+  },
+  "devDependencies": {
+    "babel-preset-frontful": "0.x || 1.x",
+    "eslint-config-frontful": "0.x || 1.x"
+  }
+}
