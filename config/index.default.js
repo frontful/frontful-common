@@ -7,6 +7,7 @@ module.exports = {
     'frontful-config',
     'frontful-dal',
     'frontful-environment',
+    'frontful-model',
     'frontful-resolver',
     'frontful-style',
   ]
