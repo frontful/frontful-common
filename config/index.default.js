@@ -10,5 +10,6 @@ module.exports = {
     'frontful-model',
     'frontful-resolver',
     'frontful-style',
+    'frontful-utils',
   ]
 }
