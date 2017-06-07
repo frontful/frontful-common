@@ -9,6 +9,7 @@ module.exports = {
     'frontful-environment',
     'frontful-model',
     'frontful-resolver',
+    'frontful-router',
     'frontful-style',
     'frontful-utils',
   ]
