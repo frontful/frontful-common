@@ -5,7 +5,7 @@ module.exports = {
     'frontful-cms',
     'frontful-common',
     'frontful-config',
-    'frontful-dal',
+    'frontful-dao',
     'frontful-environment',
     'frontful-model',
     'frontful-resolver',
