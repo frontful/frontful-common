@@ -1,6 +1,6 @@
 {
   "name": "frontful-common",
-  "version": "0.0.14",
+  "version": "0.0.15",
   "private": true,
   "description": "Common configuration and utilities for Frontful infrastructure",
   "license": "MIT",
@@ -9,8 +9,10 @@
     "url": "https://github.com/frontful/frontful-common.git"
   },
   "scripts": {
-    "build": "babel-preset-frontful build",
-    "deploy": "babel-preset-frontful deploy"
+    "build": "yarn test && babel-preset-frontful build",
+    "deploy": "yarn test && babel-preset-frontful deploy",
+    "test": "yarn test:eslint",
+    "test:eslint": "node ./node_modules/eslint/bin/eslint.js --max-warnings 0 ."
   },
   "dependencies": {
     "frontful-config": "0.x || 1.x",
