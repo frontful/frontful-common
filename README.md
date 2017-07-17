@@ -1,6 +1,6 @@
 # <a href="https://github.com/frontful/frontful-common"><img heigth="75" src="http://www.frontful.com/assets/packages/common.png" alt="Frontful Common" /></a>
 
-`frontful-common` is common configuration and utilities provider for _Frontful infrastructure_. This package on its own has no use outside _Frontful infrastructure_. It is deployed and packaged only for purpose of internal code reuse.
+[`frontful-common`](https://github.com/frontful/frontful-common) is common configuration and utilities provider for [Frontful](https://github.com/frontful) infrastructure. This package on its own has no use outside Frontful infrastructure. It is deployed and packaged only for purpose of internal code reuse.
 
 ### _Package development helper_
 
