@@ -1,6 +1,6 @@
 {
   "name": "frontful-common",
-  "version": "0.0.16",
+  "version": "1.0.0",
   "private": true,
   "description": "Common configuration provider for Frontful infrastructure",
   "license": "MIT",
