@@ -1,6 +1,6 @@
 {
   "name": "frontful-common",
-  "version": "2.0.3",
+  "version": "3.0.2",
   "private": true,
   "description": "Common configuration provider for Frontful infrastructure",
   "license": "MIT",
@@ -15,11 +15,11 @@
     "test:eslint": "node ./node_modules/eslint/bin/eslint.js --max-warnings 0 ."
   },
   "dependencies": {
-    "frontful-config": "2.x",
+    "frontful-config": "3.x",
     "object-path": "^0.11.4"
   },
   "devDependencies": {
-    "babel-preset-frontful": "2.x",
-    "eslint-config-frontful": "2.x"
+    "babel-preset-frontful": "3.x",
+    "eslint-config-frontful": "3.x"
   }
 }
