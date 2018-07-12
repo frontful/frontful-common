@@ -12,5 +12,6 @@ module.exports = {
     'frontful-router',
     'frontful-style',
     'frontful-utils',
-  ]
+  ],
+  alias: {},
 }
