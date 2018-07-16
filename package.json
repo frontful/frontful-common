@@ -1,6 +1,6 @@
 {
   "name": "frontful-common",
-  "version": "3.0.3",
+  "version": "3.0.4",
   "private": true,
   "description": "Common configuration provider for Frontful infrastructure",
   "license": "MIT",
@@ -13,6 +13,9 @@
     "deploy": "yarn test && babel-preset-frontful deploy",
     "test": "yarn test:eslint",
     "test:eslint": "node ./node_modules/eslint/bin/eslint.js --max-warnings 0 ."
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
   },
   "dependencies": {
     "frontful-config": "3.x",
